@@ -4,7 +4,7 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) throws IOException {
 
-        String host = "localhost";
+        String host = "netology.homework";
         int port = 8081;
         try (Socket clientSocket = new Socket(host, port);
              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
