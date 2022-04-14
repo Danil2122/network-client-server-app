@@ -16,6 +16,7 @@ public class Server {
         String msg = String.format("Hir name: %s\nHir port is %d", name, clientSocket.getPort());
 
         System.out.println(msg);
+        serverSocket.close();
     }
 
 
